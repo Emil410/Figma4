@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#main {
+    /* margin-top: 50px; */
+    /* width: 1000px; */
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    z-index: -1;
+    /* position: absolute; */
+    overflow: hidden;
+}
+
+#yellow_div {
+    /* width: 300px; */
+    aspect-ratio: 1/1;
+    height: 120vh;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: -10vh;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+#E{
+    
+    text-align: center;
+    color: white;
+}
+#blue_div{
+    aspect-ratio: 1/1;
+    height: 50vh;
+    background-color: blue;
+    border-radius: 50% ;
+    position: absolute;
+    z-index: 2;
+    top: 23vh;
+    transform: translateX(-65%);
+}
+#login{
+    margin-left: 800px;
+    color: white;
+    margin-top: 100px;
+}
+#span_login_main{
+    font-size: 100px;
+    font-family:livvic ;
+    font-weight: 100;
+}
+#username{
+    margin-top: 70px;
+    background-color: black;
+    border: 1px solid #B9B9B9;
+    height: 40px;
+    width: 600px;
+    border-radius: 4px;
+}
+#password{
+    margin-top: 26px ;
+    background-color: black;
+    border: 1px solid #B9B9B9;
+    height: 40px;
+    width: 600px;
+    border-radius: 4px;
+}
+button{
+    margin-top: 70px;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: yellow;
+    border: 0;
+}
+#span_login{
+    font-family: livvic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+}
